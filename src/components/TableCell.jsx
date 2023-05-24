@@ -1,14 +1,13 @@
-import TableLetter from './TableLetter'
+import TableLetter from "./TableLetter";
 
 const TableCell = ({ word }) => {
+  return (
+    <td>
+      {Array.from(word).map((letter, index) => (
+        <TableLetter key={index} letter={letter} index={index} />
+      ))}
+    </td>
+  );
+};
 
-    return (
-        <td>
-            {Array.from(word).map((letter, index) => (
-                <TableLetter key={index} letter={letter} index={index}/>
-            ))}
-        </td>
-    )
-}
-
-export default TableCell
+export default TableCell;
