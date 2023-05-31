@@ -74,3 +74,8 @@ header {
     transform: rotateY(180deg);
   }
 }
+
+.custom-icon {
+  width: 20px;
+  height: 20px;
+}

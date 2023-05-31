@@ -1,24 +1,6 @@
-// import TableCell from "./TableCell";
-
-// const TableRow = ({ flight }) => {
-//   const words = Object.values(flight);
-
-//   console.log(words);
-
-//   return (
-//     <tr>
-//       <td>✈</td>
-//       {words?.map((word, _index) => (
-//         <TableCell key={_index} word={word} />
-//       ))}
-//     </tr>
-//   );
-// };
-
-// export default TableRow;
-
 import React, { useState, useEffect } from "react";
 import TableCell from "./TableCell";
+import { FaPlaneDeparture } from "react-icons/fa";
 
 const TableRow = ({ flight }) => {
   const [previousFlight, setPreviousFlight] = useState(flight);
@@ -34,7 +16,9 @@ const TableRow = ({ flight }) => {
 
   return (
     <tr>
-      <td>✈</td>
+      <td>
+        <FaPlaneDeparture className="custom-icon" />
+      </td>
       {words?.map((word, index) => {
         // Conditionally render the TableCell component based on changes in 'word'
         if (word !== previousFlight[index]) {
