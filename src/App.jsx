@@ -2,7 +2,7 @@ import Table from "./components/Table/Table";
 const App = () => {
   return (
     <div className="departures">
-      <header>DEPARTURES</header>
+      <header>DEPARTURES / प्रस्थान </header>
       <Table />
     </div>
   );

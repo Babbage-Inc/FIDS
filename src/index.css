@@ -11,13 +11,13 @@ body {
   justify-content: center;
   height: 100vh;
   align-items: center;
-  background-color: rgb(228, 14, 50);
+  background-color: rgb(32, 28, 29);
 }
 
 /* Table Styles */
 
 header {
-  padding: 10px;
+  padding: 50px;
 }
 
 .departures {
@@ -42,32 +42,38 @@ header {
   float: left;
 }
 
+.nepali {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 #time {
-  width: 170px;
+  width: 5rem;
 }
 
 #airline {
-  width: 600px;
+  width: 16.1rem;
 }
 
 #destination {
-  width: 250px;
+  width: 11rem;
 }
 
 #flight {
-  width: 205px;
+  width: 5.5rem;
 }
 
 #gate {
-  width: 135px;
+  width: 3.2rem;
 }
 
 #remarks {
-  width: 260px;
+  width: 8rem;
 }
 
 .flip {
   animation: 0.5s linear flipping;
+  -webkit-animation: 0.5s linear flipping;
 }
 
 @keyframes flipping {

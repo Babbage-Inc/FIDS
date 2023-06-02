@@ -3,12 +3,33 @@ const TableHead = () => {
     <thead>
       <tr>
         <th></th>
-        <th id="time">TIME</th>
-        <th id="airline">AIRLINE</th>
-        <th id="destination">DESTINATION</th>
-        <th id="flight">FLIGHT</th>
-        <th id="gate">GATE</th>
-        <th id="remarks">REMARKS</th>
+        <th id="time">
+          <tr className="header-col">TIME /</tr>
+          <tr className="header-col nepali">समय</tr>
+        </th>
+
+        <th id="airline">
+          <tr className="header-col">AIRLINES /</tr>
+          <tr className="header-col nepali">वायुसेवा</tr>
+        </th>
+
+        <th id="destination">
+          <tr className="header-col">DESTINATION /</tr>
+          <tr className="header-col nepali">गन्तव्य</tr>
+        </th>
+
+        <th id="flight">
+          <tr className="header-col">FLIGHT /</tr>
+          <tr className="header-col nepali">उडान</tr>
+        </th>
+        <th id="gate">
+          <tr className="header-col">GATE /</tr>
+          <tr className="header-col nepali">गेट</tr>
+        </th>
+        <th id="remarks">
+          <tr className="header-col">REMARKS /</tr>
+          <tr className="header-col nepali">स्थिति</tr>
+        </th>
       </tr>
     </thead>
   );
