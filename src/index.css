@@ -43,11 +43,15 @@ header {
 }
 
 #time {
-  width: 160px;
+  width: 170px;
+}
+
+#airline {
+  width: 600px;
 }
 
 #destination {
-  width: 700px;
+  width: 250px;
 }
 
 #flight {
