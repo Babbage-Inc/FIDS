@@ -2,7 +2,6 @@ const TableHead = () => {
   return (
     <thead>
       <tr>
-        <th></th>
         <th id="time">
           <tr className="header-col">TIME /</tr>
           <tr className="header-col nepali">समय</tr>
@@ -26,8 +25,8 @@ const TableHead = () => {
           <tr className="header-col">GATE /</tr>
           <tr className="header-col nepali">गेट</tr>
         </th>
-        <th id="remarks">
-          <tr className="header-col">REMARKS /</tr>
+        <th id="status">
+          <tr className="header-col">STATUS /</tr>
           <tr className="header-col nepali">स्थिति</tr>
         </th>
       </tr>
