@@ -28,10 +28,15 @@ const TableHead = ({ selectedOption }) => {
           <tr className="header-col">FLIGHT /</tr>
           <tr className="header-col nepali">उडान</tr>
         </th>
-        <th id="gate">
-          <tr className="header-col">GATE /</tr>
-          <tr className="header-col nepali">गेट</tr>
-        </th>
+
+        {selectedOption === "intl-arr" ||
+        selectedOption === "dom-arr" ? null : (
+          <th id="gate">
+            <tr className="header-col">GATE /</tr>
+            <tr className="header-col nepali">गेट</tr>
+          </th>
+        )}
+
         <th id="status">
           <tr className="header-col">STATUS /</tr>
           <tr className="header-col nepali">स्थिति</tr>
