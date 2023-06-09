@@ -18,16 +18,28 @@ body {
 
 /* Table Styles */
 header {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 2rem 3rem;
+}
+
+.header-option {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-option label {
+  font-size: 0.6rem;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-right {
   color: gold;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .header-left {
