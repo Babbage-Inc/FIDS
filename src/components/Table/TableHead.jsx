@@ -7,6 +7,14 @@ const TableHead = ({ selectedOption }) => {
           <tr className="header-col nepali">समय</tr>
         </th>
 
+        {selectedOption === "intl-dept" ||
+        selectedOption === "dom-dept" ? null : (
+          <th id="gate">
+            <tr className="header-col">ATA /</tr>
+            <tr className="header-col nepali">आगमनको समय</tr>
+          </th>
+        )}
+
         <th id="airline">
           <tr className="header-col">AIRLINES /</tr>
           <tr className="header-col nepali">वायुसेवा</tr>
