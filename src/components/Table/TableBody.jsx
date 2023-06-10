@@ -65,8 +65,8 @@ const TableBody = ({ selectedOption }) => {
     getFlights(); // Initial fetch
 
     const interval = setInterval(() => {
-      getFlights(); // Fetch every 10 seconds
-    }, 10000);
+      getFlights(); // Fetch every 30 seconds
+    }, 30000);
 
     return () => {
       clearInterval(interval); // Cleanup interval on component unmount
