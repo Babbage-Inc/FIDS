@@ -4,6 +4,10 @@
 
 eAero is a flight widget and flight information display system designed to provide real-time flight updates and enhance the passenger experience. It offers a comprehensive set of features and functionalities to keep users informed about their flights and airport-related information.
 
+## Screenshots
+![image](https://github.com/Bishal-Pahari/eAero/assets/61013432/8f105aec-95ab-4110-aec9-973c8b3026f2)
+
+
 ## Features
 
 - **Real-time Flight Updates:** Get up-to-date information about flight statuses, including departure and arrival times, delays, gate changes, and cancellations.
