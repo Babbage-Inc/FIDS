@@ -1,6 +1,7 @@
 # eAero Flight Widget/Information Display System
 
-![FIDS](https://github.com/Bishal-Pahari/eAero/assets/61013432/94001ce4-f2b5-4c2f-989a-ee0758f331da)
+
+![Uploading fids-01.png…]()
 
 eAero is a flight widget and flight information display system designed to provide real-time flight updates and enhance the passenger experience. It offers a comprehensive set of features and functionalities to keep users informed about their flights and airport-related information.
 
