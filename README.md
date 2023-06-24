@@ -1,3 +1,13 @@
+**[NOTE]**
+## :construction: Under Construction
+⚠️ **This repository is currently under construction.**
+
+The FIDS Staff Panel is being developed and enhanced to provide an efficient and user-friendly solution for airport staff. Please note that the application might not be fully functional or stable at this stage.
+
+## Associated FIDS Repository
+
+This repository is the associated codebase for the FIDS-Staff (Flight Information System) application.
+
 # eAero Flight Widget/Information Display System
 
 ![fids-01](https://github.com/Bishal-Pahari/eAero/assets/61013432/f3bb3943-656d-448a-9d9e-64799592f553)
