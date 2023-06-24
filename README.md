@@ -9,16 +9,17 @@
 This repository is the associated codebase for the FIDS-Staff (Flight Information System) application.
 
 # eAero Flight Widget/Information Display System
+![fids-01](https://github.com/Bishal-Pahari/eAero/assets/61013432/554c2206-a695-49bf-a41c-89b0d3602ac0)
 
-![fids-01](https://github.com/Bishal-Pahari/eAero/assets/61013432/f3bb3943-656d-448a-9d9e-64799592f553)
 
 eAero is a flight widget and flight information display system designed to provide real-time flight updates and enhance the passenger experience. It offers a comprehensive set of features and functionalities to keep users informed about their flights and airport-related information.
 
 ## Screenshots
-![image](https://github.com/Bishal-Pahari/eAero/assets/61013432/8f105aec-95ab-4110-aec9-973c8b3026f2)
+![fids-01](https://github.com/Bishal-Pahari/eAero/assets/61013432/33f120f4-70cc-4b43-9581-82c4aae17ca4)
 
 
 ## Features
+
 
 - **Real-time Flight Updates:** Get up-to-date information about flight statuses, including departure and arrival times, delays, gate changes, and cancellations.
 
