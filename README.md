@@ -2,7 +2,7 @@
 ## :construction: Under Construction
 ⚠️ **This repository is currently under construction.**
 
-The FIDS Staff Panel is being developed and enhanced to provide an efficient and user-friendly solution for airport staff. Please note that the application might not be fully functional or stable at this stage.
+ FIDS is being developed and enhanced to provide an efficient and user-friendly solution for User. Please note that the application might not be fully functional or stable at this stage.
 
 ## Associated FIDS Repository
 
