@@ -3,9 +3,9 @@
 * {
   font-family: "Ubuntu Condensed", sans-serif, Arial;
   color: rgb(240, 240, 240);
-  font-size: 2rem;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 body {
@@ -17,6 +17,10 @@ body {
 }
 
 /* Table Styles */
+
+table {
+  padding: 0.2rem 0 0.5rem 0.5rem;
+}
 header {
   align-items: center;
   padding: 2rem 3rem;
@@ -32,18 +36,20 @@ header {
 }
 
 .header-main {
+  margin: 1rem 0 0;
   display: flex;
   justify-content: space-between;
 }
 
-.header-right {
+.header-left {
   color: gold;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
-.header-left {
-  text-align: center;
+.header-right {
+  font-size: 1.6rem;
 }
 
 .departures {
@@ -74,10 +80,10 @@ header {
   color: rgb(244, 220, 84);
 }
 
-.nepali {
-  font-size: 1.5rem;
+/* .nepali {
+  font-size: 1rem;
   font-weight: 400;
-}
+} */
 
 #header-icon {
   width: 0.5rem;
@@ -85,30 +91,55 @@ header {
 }
 
 #time {
-  width: 5rem;
+  width: 4.5rem;
 }
 
 #airline {
-  width: 16.4rem;
+  width: 15.1rem;
+}
+
+#airline-arr {
+  width: 15.8rem;
 }
 
 #destination {
-  width: 11rem;
+  width: 10rem;
 }
 
 #flight {
-  width: 5.5rem;
+  width: 4.5rem;
 }
 
 #gate {
-  width: 3rem;
+  width: 2rem;
 }
 
 #status {
   width: 8rem;
 }
 
+#ata {
+  width: 4.5rem;
+}
+
+#origin {
+  width: 10.6rem;
+}
+
+#airline-arr,
+#time,
+#airline,
+#destination,
+#flight,
+#gate,
+#status,
+#ata,
+#origin {
+  font-size: 1.2rem;
+}
+
 .flip {
+  font-size: 1.8rem;
   animation: 0.5s linear flipping;
   -webkit-animation: 0.5s linear flipping;
 }
@@ -126,7 +157,7 @@ header {
 }
 
 .custom-icon {
-  width: 3rem;
+  width: 5rem;
   padding-right: 1rem;
 }
 
@@ -135,4 +166,9 @@ marquee {
   color: rgb(32, 28, 29);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 0.4rem;
+  font-size: 1.8rem;
 }
