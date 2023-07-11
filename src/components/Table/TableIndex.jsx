@@ -92,10 +92,10 @@ const TableIndex = () => {
         </div>
 
         <div className="header-main">
-          <div className="header-right">
+          <div className="header-left">
             {iconComponent} {headerText}
           </div>
-          <div className="header-left">
+          <div className="header-right">
             <div className="header-left_top">{currTime}</div>
             <div className="header-bottom">{currDate}</div>
           </div>
@@ -105,13 +105,13 @@ const TableIndex = () => {
       <Table selectedOption={selectedOption} />
 
       {selectedOption === "intl-dept" || selectedOption === "dom-dept" ? (
-        <marquee loop="1" scrollamount="20">
+        <marquee loop="1" scrollamount="12">
           कृपया कुनै पनि प्रकारको गरगहना तथा बहुमुल्य वस्तुहरु baggage मा
           नराख्नु होला । Please do not put any kind of jewellery, valuables in
           the baggage. It is Not Allowed.
         </marquee>
       ) : (
-        <marquee loop="1" scrollamount="20">
+        <marquee loop="1" scrollamount="12">
           सूचना: यात्रा कागजातहरू, सामानहरू सङ्कलन गर्नुहोस्, बहुमूल्य वस्तुहरू
           राख्नुहोस्, ग्राहक सेवामा कुनै पनि समस्याहरू रिपोर्ट गर्नुहोस्।
           Notice: Travel documents, collect luggage, keep valuables, report any
