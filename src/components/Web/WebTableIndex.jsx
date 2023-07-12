@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Table from "./Table";
+import Table from "./WebTable";
 import { FaPlaneDeparture, FaPlaneArrival } from "react-icons/fa";
 
-const TableIndex = () => {
+const WebTableIndex = () => {
   const [selectedOption, setSelectedOption] = useState("");
   const [currTime, setCurrTime] = useState("");
   const [currDate, setCurrDate] = useState("");
@@ -122,4 +122,4 @@ const TableIndex = () => {
   );
 };
 
-export default TableIndex;
+export default WebTableIndex;

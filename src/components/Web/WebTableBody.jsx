@@ -87,7 +87,7 @@
 // export default TableBody;
 
 import React, { useState, useEffect, useCallback } from "react";
-import TableRow from "./TableRow";
+import TableRow from "./WebTableRow";
 
 const TableBody = ({ selectedOption }) => {
   const [flights, setFlights] = useState(null);

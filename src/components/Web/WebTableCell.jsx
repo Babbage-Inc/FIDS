@@ -1,4 +1,4 @@
-import TableLetter from "./TableLetter";
+import TableLetter from "./WebTableLetter";
 
 const TableCell = ({ word }) => {
   return (
