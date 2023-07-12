@@ -17,10 +17,10 @@ body {
 }
 
 /* Table Styles */
-
 table {
   padding: 0.2rem 0 0.5rem 0.5rem;
 }
+
 header {
   align-items: center;
   padding: 2rem 3rem;
@@ -80,55 +80,14 @@ header {
   color: rgb(244, 220, 84);
 }
 
-/* .nepali {
-  font-size: 1rem;
-  font-weight: 400;
-} */
-
 #header-icon {
   width: 0.5rem;
   padding-left: 1rem;
 }
 
-#time {
-  width: 4.5rem;
-}
-
-#airline {
-  width: 15.1rem;
-}
-
-#airline-arr {
-  width: 15.8rem;
-}
-
-#destination {
-  width: 10.2rem;
-}
-
-#flight {
-  width: 4.5rem;
-}
-
-#gate {
-  width: 2.8rem;
-}
-
-#status {
-  width: 8rem;
-}
-
-#ata {
-  width: 4.5rem;
-}
-
-#origin {
-  width: 10.6rem;
-}
-
-#airline-arr,
 #time,
 #airline,
+#airline-arr,
 #destination,
 #flight,
 #gate,
@@ -136,6 +95,21 @@ header {
 #ata,
 #origin {
   font-size: 1.2rem;
+}
+
+#airline-arr,
+#time,
+#airline,
+#destination,
+#origin {
+  width: auto;
+}
+
+#flight,
+#gate,
+#status,
+#ata {
+  width: min-content;
 }
 
 .flip {

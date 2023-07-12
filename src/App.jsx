@@ -1,5 +1,5 @@
 import React from "react";
-import TableIndex from "./components/Table/TableIndex";
+import TableIndex from "./components/Web/TableIndex";
 
 const App = () => {
   return (
