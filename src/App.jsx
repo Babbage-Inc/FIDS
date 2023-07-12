@@ -2,17 +2,17 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 
 import WebTableIndex from "./components/Web/WebTableIndex";
-import MobileTableIndex from "./components/Mobile/MobileTableIndex";
+import LoadingScreen from "./components/Mobile/LoadingScreen";
 
 const App = () => {
-  const isWeb = useMediaQuery({ query: "(min-width: 820px)" });
+  const isWeb = useMediaQuery({ query: "(min-width: 830px)" });
 
   return (
     <div>
       {!isWeb && (
         /* Mobile and Tablet-specific content */
         <>
-          <MobileTableIndex />
+          <LoadingScreen />
         </>
       )}
       {isWeb && (
