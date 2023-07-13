@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useCallback } from "react";
 import TableRow from "./WebTableRow";
 
@@ -40,11 +41,13 @@ const TableBody = ({ selectedOption }) => {
   return (
     <tbody>
       {flights?.map((flight, _index) => (
+
         <TableRow
           key={_index}
           flight={flight}
           selectedOption={selectedOption}
         />
+
       ))}
     </tbody>
   );

@@ -1,5 +1,6 @@
 import React from "react";
-import TableLetter from "./TableLetter";
+
+import TableLetter from "./WebTableLetter";
 
 const TableCell = ({ word, flight, selectedOption }) => {
   if (selectedOption === "intl-arr" || selectedOption === "dom-arr") {
