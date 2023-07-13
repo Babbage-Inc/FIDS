@@ -16,7 +16,7 @@ function IntroImage() {
       <source
         className="intro-image"
         media="(max-width: 500px)"
-        srcset={loadingMobile}
+        srcSet={loadingMobile}
       />
       <img className="intro-image" src={loadingTab} alt="Loading screen" />
     </picture>
