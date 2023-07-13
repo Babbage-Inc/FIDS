@@ -10,9 +10,7 @@ import himalayan from "./assets/himalayan.png";
 const WeatherContainer = () => {
   const [data, setData] = useState({});
 
-  const [location, setLocation] = useState("kathmandu");
-
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=1a50eea33427e3b8e88c2a957dfc6bed&units=metric`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=kathmandu&appid=1a50eea33427e3b8e88c2a957dfc6bed&units=metric`;
 
   useEffect(() => {
     axios
@@ -22,7 +20,7 @@ const WeatherContainer = () => {
         console.log(res.data);
       })
       .catch((err) => console.log(err));
-  }, []);
+  }, [url]);
 
   return (
     <div className="weather-container">
@@ -49,7 +47,7 @@ const WeatherContainer = () => {
           )}
           {data.wind && (
             <div className="wind">
-              <BiWind size={24} /> <p>{data.wind.speed}MPH</p>
+              <BiWind size={24} /> <p>{data.wind.speed} MPH</p>
             </div>
           )}
         </div>
