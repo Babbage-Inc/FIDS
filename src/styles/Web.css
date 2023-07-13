@@ -2,13 +2,13 @@
 
 * {
   font-family: "Ubuntu Condensed", sans-serif, Arial;
-  color: rgb(240, 240, 240);
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
 body {
+  color: rgb(240, 240, 240) !important;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -145,22 +145,4 @@ marquee {
   left: 0;
   margin: 0 0 0.4rem;
   font-size: 1.8rem;
-}
-
-/*-------------- Mobile/Tablet --------------*/
-
-#loading-img-container {
-  position: fixed;
-  left: 0;
-  top: 0;
-
-  height: 100vh;
-}
-
-.intro-image {
-  width: 100vw;
-  height: 100vh;
-  object-fit: fill;
-  aspect-ratio: 1/1;
-  object-position: center;
 }

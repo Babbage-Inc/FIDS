@@ -1,7 +1,14 @@
 import React from "react";
+import Navbar from "./Navbar";
+import WeatherContainer from "./WeatherContainer";
 
 const MobileTableIndex = () => {
-  return <div>MobileTableIndex</div>;
+  return (
+    <div className="container">
+      <Navbar />
+      <WeatherContainer />
+    </div>
+  );
 };
 
 export default MobileTableIndex;

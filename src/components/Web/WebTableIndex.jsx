@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import Table from "./WebTable";
 import { FaPlaneDeparture, FaPlaneArrival } from "react-icons/fa";
 
+import "../../styles/Web.css";
+
 const WebTableIndex = () => {
   const [selectedOption, setSelectedOption] = useState("");
   const [currTime, setCurrTime] = useState("");

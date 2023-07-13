@@ -4,6 +4,8 @@ import MobileTableIndex from "./MobileTableIndex";
 import loadingMobile from "./assets/mobile-loading.png";
 import loadingTab from "./assets/tablet-loading.png";
 
+import "../../styles/Mobile.css";
+
 // function IntroImage() {
 //   return <img className="intro-image" src={loadingTab} alt="Intro" />;
 // }
@@ -28,7 +30,7 @@ function LoadingScreen() {
     // Simulate loading delay
     setTimeout(() => {
       setIsLoading(false);
-    }, 4000);
+    }, 500);
   }, []);
 
   return <div>{isLoading ? <IntroImage /> : <MobileTableIndex />}</div>;
