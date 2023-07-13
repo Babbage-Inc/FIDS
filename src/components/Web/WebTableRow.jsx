@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import TableCell from "./TableCell";
+import TableCell from "./WebTableCell";
 
 const TableRow = ({ flight, selectedOption }) => {
   const [previousFlight, setPreviousFlight] = useState(flight);
