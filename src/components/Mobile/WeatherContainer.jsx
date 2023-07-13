@@ -10,7 +10,8 @@ import himalayan from "./assets/himalayan.png";
 const WeatherContainer = () => {
   const [data, setData] = useState({});
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=kathmandu&appid==metric`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=kathmandu&appid=${process.env.REACT_APP_SECRET}&units=metric`;
+
 
   useEffect(() => {
     axios
