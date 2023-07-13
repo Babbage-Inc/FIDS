@@ -125,3 +125,57 @@ nav {
   font-weight: 500;
   font-size: 3rem;
 }
+
+.dropdown-section {
+  margin: 1rem 0;
+}
+
+.dropdown-btn {
+  width: 90vw;
+  font-family: Outfit, sans-serif;
+  height: 3rem;
+  font-size: 1rem;
+}
+
+.flight-card {
+  color: black;
+  /* border: 1px solid #262626; */
+  padding-bottom: 1rem;
+  width: 90%;
+  margin: 1rem auto;
+  box-shadow: 1px 1px 10px #888888;
+}
+
+.flight-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.flight-header--left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.flight-header--left > .airlines-name {
+  color: #5b5b5b;
+  font-weight: 600;
+}
+
+.flight-card__body--table {
+  margin: 0 auto;
+}
+
+.flight-card__body--table > tr {
+  display: flex;
+  gap: 5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.table-heading {
+  color: grey;
+}
