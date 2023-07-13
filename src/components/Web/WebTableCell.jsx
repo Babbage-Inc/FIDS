@@ -1,3 +1,4 @@
+import React from "react";
 import TableLetter from "./WebTableLetter";
 
 const TableCell = ({ word }) => {
