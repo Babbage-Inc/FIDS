@@ -13,9 +13,9 @@
 // export default Table;
 
 import React, { useState, useEffect } from "react";
-import TableHead from "./TableHead";
-import TableBody from "./TableBody";
-import FirstTimeDialogue from "./FirstTimeDialogue";
+import TableHead from "./WebTableHead";
+import TableBody from "./WebTableBody";
+import FirstTimeDialogue from "./WebFirstTimeDialogue";
 
 const Table = ({ selectedOption }) => {
   const [showFirstTimeDialogue, setShowFirstTimeDialogue] = useState(false);
