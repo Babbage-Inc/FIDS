@@ -118,8 +118,8 @@ nav {
 .wind,
 .humidity {
   display: flex;
-  padding: 0.5rem;
   gap: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .dropdown-section {
@@ -176,4 +176,13 @@ nav {
 
 .table-heading {
   color: grey;
+}
+
+.intro-image {
+  width: 100vw;
+  object-fit: cover;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
