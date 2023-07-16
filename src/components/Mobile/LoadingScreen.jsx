@@ -30,7 +30,7 @@ function LoadingScreen() {
     // Simulate loading delay
     setTimeout(() => {
       setIsLoading(false);
-    }, 500);
+    }, 3000);
   }, []);
 
   return <div>{isLoading ? <IntroImage /> : <MobileTableIndex />}</div>;
