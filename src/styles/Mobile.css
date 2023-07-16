@@ -109,6 +109,19 @@ nav {
   font-size: 3rem;
 }
 
+.temp {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.wind,
+.humidity {
+  display: flex;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+
 .dropdown-section {
   margin: 2rem 0;
 }
