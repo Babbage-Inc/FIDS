@@ -76,7 +76,7 @@ nav {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
 }
 
 .weather-info {
@@ -112,7 +112,6 @@ nav {
 .temp {
   display: flex;
   align-items: center;
-  gap: 1rem;
 }
 
 .wind,
