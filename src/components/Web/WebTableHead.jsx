@@ -10,7 +10,7 @@ const TableHead = ({ selectedOption }) => {
         {selectedOption === "intl-dept" ||
         selectedOption === "dom-dept" ? null : (
           <th id="ata">
-            <tr className="header-col ">ATA /</tr>
+            <tr className="header-col ">ETA /</tr>
             <tr className="header-col">आगमन समय</tr>
           </th>
         )}
