@@ -42,6 +42,17 @@ To use the eAero Flight Information Display System, follow these steps:
 3. Install the dependencies:
 ```npm install```
 
+4. Create a new .env file:
+
+5. Set the necessary values: Open the .env file with a text editor and replace the placeholder values with your actual credentials and sensitive information. For example:
+```URL1= //Int'l arrival
+URL2= //Dom arrival
+URL3= //Int'l dept
+URL4= //Dom dept
+
+
+REACT_APP_SECRET = // openweather APIkey```
+
 ## Documentation
 For detailed documentation and information, please refer to the [eAero Documentation](https://example.com/).
 
