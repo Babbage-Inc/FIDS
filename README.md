@@ -53,8 +53,6 @@ URL4= //Dom dept
 
 REACT_APP_SECRET = // openweather APIkey```
 
-## Documentation
-For detailed documentation and information, please refer to the [eAero Documentation](https://example.com/).
 
 ## Contributions
 Contributions to eAero are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
