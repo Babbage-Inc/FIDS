@@ -1,6 +1,5 @@
 **[NOTE]**
-## :construction: Under Construction
-⚠️ **This repository is currently under construction.**
+⚠️ Please be aware that it might not be fully stable at this stage.
 
  FIDS is being developed and enhanced to provide an efficient and user-friendly solution for User. Please note that the application might not be fully functional or stable at this stage.
 
