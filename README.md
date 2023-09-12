@@ -3,9 +3,6 @@
 
  FIDS is being developed and enhanced to provide an efficient and user-friendly solution for User. Please note that the application might not be fully functional or stable at this stage.
 
-## Associated FIDS Repository
-
-This repository is the associated codebase for the FIDS-Staff (Flight Information System) application.
 
 # eAero Flight Widget/Information Display System
 ![fids-01](https://github.com/Bishal-Pahari/eAero/assets/61013432/554c2206-a695-49bf-a41c-89b0d3602ac0)
