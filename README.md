@@ -1,5 +1,5 @@
 **[NOTE]**
-⚠️ Please be aware that it might not be fully stable at this stage.
+⚠️ May lack stable performance
 
  FIDS is being developed and enhanced to provide an efficient and user-friendly solution for User. Please note that the application might not be fully functional or stable at this stage.
 
