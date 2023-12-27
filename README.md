@@ -1,14 +1,10 @@
-**[NOTE]**
-⚠️ May lack stable performance
-
- FIDS is being developed and enhanced to provide an efficient and user-friendly solution for User. Please note that the application might not be fully functional or stable at this stage.
 
 
-# eAero Flight Widget/Information Display System
+# FIDS Flight Widget/Information Display System
 ![fids-01](https://github.com/Bishal-Pahari/eAero/assets/61013432/554c2206-a695-49bf-a41c-89b0d3602ac0)
 
 
-eAero is a flight information display system designed to provide real-time flight updates and enhance the passenger experience. It offers a comprehensive set of features and functionalities to keep users informed about their flights and airport-related information.
+FIDS is a flight information display system designed to provide real-time flight updates and enhance the passenger experience. It offers a comprehensive set of features and functionalities to keep users informed about their flights and airport-related information.
 
 ## Screenshots
 ![dept](https://github.com/Bishal-Pahari/eAero/assets/61013432/6eae86f5-b7b0-409a-84a3-976eaff24d89)
@@ -27,13 +23,13 @@ eAero is a flight information display system designed to provide real-time fligh
 
 ## Installation
 
-To use the eAero Flight Information Display System, follow these steps:
+To use the FIDS Flight Information Display System, follow these steps:
 
 1. Clone the repository:
-```git clone https://github.com/Bishal-Pahari/eAero.git```
+```git clone https://github.com/Bishal-Pahari/FIDS.git```
 
 2. Navigate to the project directory:
-```cd eAero```
+```cd FIDS```
 
 3. Install the dependencies:
 ```npm install```
@@ -51,6 +47,6 @@ REACT_APP_SECRET = // openweather APIkey```
 
 
 ## Contributions
-Contributions to eAero are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
+Contributions to FIDS are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
 
 
