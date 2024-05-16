@@ -1,6 +1,6 @@
 
 
-# FIDS Flight Widget/Information Display System
+# FIDS Flight Information Display System
 ![fids-01](https://github.com/Bishal-Pahari/eAero/assets/61013432/554c2206-a695-49bf-a41c-89b0d3602ac0)
 
 
