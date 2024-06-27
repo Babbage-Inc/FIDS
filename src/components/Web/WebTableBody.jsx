@@ -1,20 +1,20 @@
-import React, { useState, useEffect, useCallback } from "react";
-import TableRow from "./WebTableRow";
+import React, { useState, useEffect, useCallback } from 'react';
+import TableRow from './WebTableRow';
 
 const TableBody = ({ selectedOption }) => {
   const [flights, setFlights] = useState(null);
 
   const getFlights = useCallback(() => {
-    let apiUrl = ""; // API endpoint variable
+    let apiUrl = ''; // API endpoint variable
 
-    if (selectedOption === "intl-arr") {
-      apiUrl = "http://localhost:8000/international-arrival-api"; // Replace with the actual international arrival API endpoint
-    } else if (selectedOption === "dom-arr") {
-      apiUrl = "http://localhost:8000/domestic-arrival-api"; // Replace with the actual domestic arrival API endpoint
-    } else if (selectedOption === "intl-dept") {
-      apiUrl = "http://localhost:8000/international-departure-api"; // Replace with the actual international departure API endpoint
-    } else if (selectedOption === "dom-dept") {
-      apiUrl = "http://localhost:8000/domestic-departure-api"; // Replace with the actual domestic departure API endpoint
+    if (selectedOption === 'intl-arr') {
+      apiUrl = 'http://localhost:3000/international-arrival-api';
+    } else if (selectedOption === 'dom-arr') {
+      apiUrl = 'http://localhost:3000/domestic-arrival-api';
+    } else if (selectedOption === 'intl-dept') {
+      apiUrl = 'http://localhost:3000/international-departure-api';
+    } else if (selectedOption === 'dom-dept') {
+      apiUrl = 'http://localhost:3000/domestic-departure-api';
     }
 
     fetch(apiUrl)
@@ -24,14 +24,14 @@ const TableBody = ({ selectedOption }) => {
   }, [selectedOption]);
 
   useEffect(() => {
-    getFlights(); // Initial fetch
+    getFlights();
 
     const interval = setInterval(() => {
-      getFlights(); // Fetch every 30 seconds
+      getFlights();
     }, 30000);
 
     return () => {
-      clearInterval(interval); // Cleanup interval on component unmount
+      clearInterval(interval);
     };
   }, [selectedOption, getFlights]);
 
