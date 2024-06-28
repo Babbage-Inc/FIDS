@@ -1,16 +1,13 @@
-import React, { useState, useEffect } from "react";
-import TableCell from "./WebTableCell";
-
+import React, { useState, useEffect } from 'react';
+import TableCell from './WebTableCell';
+import { Logger } from '../../utils/Logger';
 
 const TableRow = ({ flight, selectedOption }) => {
   const [previousFlight, setPreviousFlight] = useState(flight);
   const words = Object.values(flight);
-  console.log(words);
-
+  Logger.log('words', words);
 
   useEffect(() => {
-    // Compare the new 'flight' data with the previous data
-    // Update the 'previousFlight' state if there are changes
     if (JSON.stringify(flight) !== JSON.stringify(previousFlight)) {
       setPreviousFlight(flight);
     }
@@ -18,10 +15,7 @@ const TableRow = ({ flight, selectedOption }) => {
 
   return (
     <tr>
-
-
       <TableCell word={words} flight={flight} selectedOption={selectedOption} />
-
     </tr>
   );
 };

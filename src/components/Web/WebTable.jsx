@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import TableHead from './WebTableHead';
 import TableBody from './WebTableBody';
 import FirstTimeDialogue from './WebFirstTimeDialogue';
-import { Logger } from '../../utils/Logger';
 
 const Table = ({ selectedOption }) => {
   const [showFirstTimeDialogue, setShowFirstTimeDialogue] = useState(false);

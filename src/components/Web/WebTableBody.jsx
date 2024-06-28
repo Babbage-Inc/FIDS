@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import TableRow from './WebTableRow';
+import { Logger } from '../../utils/Logger';
 
 const TableBody = ({ selectedOption }) => {
   const [flights, setFlights] = useState(null);
@@ -8,13 +9,13 @@ const TableBody = ({ selectedOption }) => {
     let apiUrl = ''; // API endpoint variable
 
     if (selectedOption === 'intl-arr') {
-      apiUrl = 'http://localhost:3000/international-arrival-api';
+      apiUrl = 'http://localhost:8000/international-arrival-api';
     } else if (selectedOption === 'dom-arr') {
-      apiUrl = 'http://localhost:3000/domestic-arrival-api';
+      apiUrl = 'http://localhost:8000/domestic-arrival-api';
     } else if (selectedOption === 'intl-dept') {
-      apiUrl = 'http://localhost:3000/international-departure-api';
+      apiUrl = 'http://localhost:8000/international-departure-api';
     } else if (selectedOption === 'dom-dept') {
-      apiUrl = 'http://localhost:3000/domestic-departure-api';
+      apiUrl = 'http://localhost:8000/domestic-departure-api';
     }
 
     fetch(apiUrl)
@@ -35,7 +36,7 @@ const TableBody = ({ selectedOption }) => {
     };
   }, [selectedOption, getFlights]);
 
-  console.log(flights);
+  Logger.log('flights res', flights);
 
   return (
     <tbody>

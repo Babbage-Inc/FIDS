@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useCallback } from "react";
-import Navbar from "./Navbar";
-import WeatherContainer from "./WeatherContainer";
-import SelectButton from "./SelectButton";
-import FlightCard from "./FlightCard";
+import React, { useState, useEffect, useCallback } from 'react';
+import Navbar from './Navbar';
+import WeatherContainer from './WeatherContainer';
+import SelectButton from './SelectButton';
+import FlightCard from './FlightCard';
 
 const MobileTableIndex = () => {
-  const [selectedOption, setSelectedOption] = useState("intl-arr");
+  const [selectedOption, setSelectedOption] = useState('intl-arr');
   const [flights, setFlights] = useState(null);
 
   const handleOptionChange = (event) => {
@@ -13,16 +13,16 @@ const MobileTableIndex = () => {
   };
 
   const getFlights = useCallback(() => {
-    let apiUrl = ""; // API endpoint variable
+    let apiUrl = ''; // API endpoint variable
 
-    if (selectedOption === "intl-arr") {
-      apiUrl = "http://localhost:8000/international-arrival-api"; // Replace with the actual international arrival API endpoint
-    } else if (selectedOption === "dom-arr") {
-      apiUrl = "http://localhost:8000/domestic-arrival-api"; // Replace with the actual domestic arrival API endpoint
-    } else if (selectedOption === "intl-dept") {
-      apiUrl = "http://localhost:8000/international-departure-api"; // Replace with the actual international departure API endpoint
-    } else if (selectedOption === "dom-dept") {
-      apiUrl = "http://localhost:8000/domestic-departure-api"; // Replace with the actual domestic departure API endpoint
+    if (selectedOption === 'intl-arr') {
+      apiUrl = 'http://localhost:8000/international-arrival-api'; // Replace with the actual international arrival API endpoint
+    } else if (selectedOption === 'dom-arr') {
+      apiUrl = 'http://localhost:8000/domestic-arrival-api'; // Replace with the actual domestic arrival API endpoint
+    } else if (selectedOption === 'intl-dept') {
+      apiUrl = 'http://localhost:8000/international-departure-api'; // Replace with the actual international departure API endpoint
+    } else if (selectedOption === 'dom-dept') {
+      apiUrl = 'http://localhost:8000/domestic-departure-api'; // Replace with the actual domestic departure API endpoint
     }
 
     fetch(apiUrl)

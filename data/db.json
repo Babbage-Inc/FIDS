@@ -63,7 +63,7 @@
     "data": [
       {
         "flightNumber": "NA123",
-        "airlines": "Nepali Airlines",
+        "airlines": "Buddha Air",
         "status": "ON TIME",
         "destination": "Pokhara",
         "arriving": "08:00",
@@ -71,7 +71,7 @@
       },
       {
         "flightNumber": "NA456",
-        "airlines": "Nepali Airlines",
+        "airlines": "Phantom Air",
         "status": "DELAYED",
         "destination": "Bharatpur",
         "arriving": "09:00",
@@ -79,7 +79,7 @@
       },
       {
         "flightNumber": "NA789",
-        "airlines": "Nepali Airlines",
+        "airlines": "Tara Air",
         "status": "ON TIME",
         "destination": "Biratnagar",
         "arriving": "10:00",
@@ -87,7 +87,7 @@
       },
       {
         "flightNumber": "NA101",
-        "airlines": "Nepali Airlines",
+        "airlines": "Sita Air",
         "status": "CANCELLED",
         "destination": "Nepalgunj",
         "arriving": "11:00",
@@ -95,7 +95,7 @@
       },
       {
         "flightNumber": "NA202",
-        "airlines": "Nepali Airlines",
+        "airlines": "Air Shree",
         "status": "ON TIME",
         "destination": "Janakpur",
         "arriving": "12:00",
@@ -183,7 +183,7 @@
     "data": [
       {
         "flightNumber": "NA789",
-        "airlines": "Nepali Airlines",
+        "airlines": "Tara Air",
         "status": "ON TIME",
         "destination": "Kathmandu",
         "departing": "14:00",
@@ -191,7 +191,7 @@
       },
       {
         "flightNumber": "NA101",
-        "airlines": "Nepali Airlines",
+        "airlines": "Sita Air",
         "status": "DELAYED",
         "destination": "Pokhara",
         "departing": "15:00",
@@ -199,7 +199,7 @@
       },
       {
         "flightNumber": "NA202",
-        "airlines": "Nepali Airlines",
+        "airlines": "Yeti Airline",
         "status": "CANCELLED",
         "destination": "Bharatpur",
         "departing": "16:00",
@@ -207,7 +207,7 @@
       },
       {
         "flightNumber": "NA303",
-        "airlines": "Nepali Airlines",
+        "airlines": "Buddha Air",
         "status": "ON TIME",
         "destination": "Biratnagar",
         "departing": "17:00",
